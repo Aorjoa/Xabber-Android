@@ -121,7 +121,7 @@ public class MessageNotificationCreator {
     }
 
     private int getSmallIcon() {
-        return R.drawable.ic_stat_chat;
+        return R.drawable.ic_github;
     }
 
     private android.graphics.Bitmap getLargeIcon(MessageNotification message) {

@@ -383,10 +383,10 @@ public class NotificationManager implements OnInitializedListener, OnAccountChan
 
         if (connected > 0) {
             persistentNotificationBuilder.setColor(persistentNotificationColor);
-            persistentNotificationBuilder.setSmallIcon(R.drawable.ic_stat_online);
+            persistentNotificationBuilder.setSmallIcon(R.drawable.ic_github);
         } else {
             persistentNotificationBuilder.setColor(NotificationCompat.COLOR_DEFAULT);
-            persistentNotificationBuilder.setSmallIcon(R.drawable.ic_stat_offline);
+            persistentNotificationBuilder.setSmallIcon(R.drawable.ic_twitter);
         }
 
         persistentNotificationBuilder.setContentText(getConnectionState(waiting, connecting, connected, accountList.size()));

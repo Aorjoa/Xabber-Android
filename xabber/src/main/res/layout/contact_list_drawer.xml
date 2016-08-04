@@ -29,7 +29,7 @@
                 android:layout_height="64dp"
 
                 android:layout_marginLeft="8dp"
-                android:src="@drawable/xabber_logo_80dp" />
+                android:src="@mipmap/ic_logo" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
